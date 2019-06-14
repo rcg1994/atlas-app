@@ -1,6 +1,6 @@
 import Home from '../Pages/Home'
 import Components from '../Pages/Components'
-import About from '../Pages/About'
+// import About from '../Pages/About'
 import LibraryButtons from '../Pages/Library/Buttons'
 import LibraryLoading from '../Pages/Library/Loading'
 
@@ -11,10 +11,10 @@ const TabPages = {
   },
   Components: {
     screen: Components
-  },
-  About: {
-    screen: About
   }
+  // About: {
+  //   screen: About
+  // }
 }
 
 // 应用页面

@@ -1,14 +1,14 @@
 import React from 'react'
-import { View, StyleSheet, ScrollView, Image } from 'react-native'
+import { View, StyleSheet, ScrollView, SafeAreaView } from 'react-native'
 import { ATRowView, ATLoading, ATSpin } from 'react-native-atlas'
 import { AppStyles } from '../../Theme'
 import { Header, Card } from '../../Components'
-import { Images } from '../../Resources'
+// import { Images } from '../../Resources'
 
 class LibraryLoading extends React.Component {
   render () {
     return (
-      <View style={AppStyles.screen}>
+      <SafeAreaView style={AppStyles.screen}>
         <Header title="Loading" />
         <View style={AppStyles.body}>
           <ScrollView>
@@ -47,7 +47,7 @@ class LibraryLoading extends React.Component {
             </Card>
           </ScrollView>
         </View>
-      </View>
+      </SafeAreaView>
     )
   }
 }

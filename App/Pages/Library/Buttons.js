@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, StyleSheet, ScrollView } from 'react-native'
+import { View, StyleSheet, ScrollView, SafeAreaView } from 'react-native'
 import { ATButton, ATIconButton, ATRowView, ATText } from 'react-native-atlas'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import { Header, Card, APICard } from '../../Components'
@@ -15,7 +15,7 @@ class LibraryButtons extends React.Component {
 
   render () {
     return (
-      <View style={AppStyles.screen}>
+      <SafeAreaView style={AppStyles.screen}>
         <Header title="Button" />
         <View style={AppStyles.body}>
           <ScrollView>
@@ -191,7 +191,7 @@ class LibraryButtons extends React.Component {
             <APICard api={url.api} />
           </ScrollView>
         </View>
-      </View>
+      </SafeAreaView>
     )
   }
 }

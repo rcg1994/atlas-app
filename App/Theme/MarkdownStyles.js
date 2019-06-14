@@ -46,6 +46,9 @@ const markdownStyles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 5
   },
+  text: {
+    lineHeight: 22
+  },
   codeInline: {
     borderWidth: 1,
     borderColor: '#CCCCCC',

@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, SafeAreaView } from 'react-native'
 import { ATList } from 'react-native-atlas'
 import { Header } from '../Components'
 import { AppStyles } from '../Theme'
@@ -29,12 +29,12 @@ class Components extends React.Component {
       }
     })
     return (
-      <View style={AppStyles.screen}>
+      <SafeAreaView style={AppStyles.screen}>
         <Header title="组件库" headerLeft={null} />
         <View style={AppStyles.body}>
           <ATList style={Styles.list} data={listData} underlayColor="#fdfdfd" />
         </View>
-      </View>
+      </SafeAreaView>
     )
   }
 }

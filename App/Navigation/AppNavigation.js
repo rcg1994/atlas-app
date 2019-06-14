@@ -21,8 +21,8 @@ const TabNavigatorConfig = {
       const { routeName } = navigation.state
       const iconConf = {
         Home: 'atlas',
-        Components: 'components',
-        About: 'mine'
+        Components: 'components'
+        // About: 'mine'
       }
       return (
         <Iconfont
@@ -36,8 +36,8 @@ const TabNavigatorConfig = {
       const { routeName } = navigation.state
       const labelConf = {
         Home: '主页',
-        Components: '路由',
-        About: '状态'
+        Components: '组件库'
+        // About: '状态'
       }
       return (
         <Text

@@ -18,6 +18,15 @@ class APICard extends Component {
     })
   }
   render () {
+    let rules = {
+      td: (node, children, parent, styles) => {
+        return (
+          <View key={node.key} style={[styles.tableRowCell]}>
+            {children}
+          </View>
+        )
+      }
+    }
     return this.state.apiMD === '' ? null : (
       <View style={AppStyles.apiCard}>
         <View style={{ paddingHorizontal: 10 }}>
@@ -25,7 +34,7 @@ class APICard extends Component {
             API
           </ATText>
         </View>
-        <Markdown style={MarkdownStyles}>{this.state.apiMD}</Markdown>
+        <Markdown style={MarkdownStyles} rules={rules}>{this.state.apiMD}</Markdown>
       </View>
     )
   }
