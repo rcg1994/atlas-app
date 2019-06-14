@@ -11,6 +11,13 @@ export default class Const {
       color: MD_RESOURCE_URL + '/Button/color.md',
       disabled: MD_RESOURCE_URL + '/Button/disabled.md',
       press: MD_RESOURCE_URL + '/Button/press.md'
+    },
+    loading: {
+      api: MD_RESOURCE_URL + '/Loading/api.md',
+      size: MD_RESOURCE_URL + '/Loading/size.md',
+      color: MD_RESOURCE_URL + '/Loading/color.md',
+      title: MD_RESOURCE_URL + '/Loading/title.md',
+      indicator: MD_RESOURCE_URL + '/Loading/indicator.md'
     }
   }
 }
