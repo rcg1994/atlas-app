@@ -12,6 +12,10 @@ const routes = [
   {
     name: 'Loading',
     path: 'LibraryLoading'
+  },
+  {
+    name: 'FlexLine',
+    path: 'LibraryFlexLine'
   }
 ]
 

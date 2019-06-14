@@ -10,7 +10,6 @@ const AppStyles = StyleSheet.create({
     backgroundColor: Colors.appBackground
   },
   flexCenter: {
-    flex: 1,
     alignItems: 'center',
     justifyContent: 'center'
   },
@@ -18,10 +17,17 @@ const AppStyles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
+  fullBox: {
+    width: '100%',
+    height: '100%'
+  },
   apiCard: {
     marginTop: 10,
     paddingVertical: 10,
     backgroundColor: '#fff'
+  },
+  mt10: {
+    marginTop: 10
   }
 })
 

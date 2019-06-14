@@ -14,7 +14,7 @@ class Home extends React.Component {
   render () {
     return (
       <View style={AppStyles.screen}>
-        <View style={AppStyles.flexCenter}>
+        <View style={[AppStyles.flexCenter, { flex: 1 }]}>
           <Image source={Images.atlas} style={Styles.logo} />
           <Text>欢迎使用 react-native-atlas</Text>
           <Text>当前版本：1.0.0</Text>

@@ -18,6 +18,12 @@ export default class Const {
       color: MD_RESOURCE_URL + '/Loading/color.md',
       title: MD_RESOURCE_URL + '/Loading/title.md',
       indicator: MD_RESOURCE_URL + '/Loading/indicator.md'
+    },
+    flexLine: {
+      api: MD_RESOURCE_URL + '/FlexLine/api.md',
+      nums: MD_RESOURCE_URL + '/FlexLine/nums.md',
+      divide: MD_RESOURCE_URL + '/FlexLine/divide.md',
+      render: MD_RESOURCE_URL + '/FlexLine/render.md'
     }
   }
 }

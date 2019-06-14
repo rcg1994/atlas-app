@@ -61,6 +61,7 @@ const TabNavigatorConfig = {
       borderTopColor: Colors.borderLight
     }
   },
+  initialRouteName: 'Components',
   animationEnabled: false,
   swipeEnabled: false,
   lazy: false

@@ -3,6 +3,7 @@ import Components from '../Pages/Components'
 // import About from '../Pages/About'
 import LibraryButtons from '../Pages/Library/Buttons'
 import LibraryLoading from '../Pages/Library/Loading'
+import LibraryFlexLine from '../Pages/Library/FlexLine'
 
 // 底部导航对应的页面
 const TabPages = {
@@ -24,6 +25,9 @@ const AppPages = {
   },
   LibraryLoading: {
     screen: LibraryLoading
+  },
+  LibraryFlexLine: {
+    screen: LibraryFlexLine
   }
 }
 
