@@ -14,7 +14,7 @@ class LibraryModalLoading extends React.Component {
         <Header title="ATModalLoading" />
         <View style={AppStyles.body}>
           <ScrollView>
-            <Card title="加载提示" api={url.modalToast01}>
+            <Card title="加载提示" api={url.modalLoading01}>
               <ATButton
                 ghost
                 style={AppStyles.mt10}
