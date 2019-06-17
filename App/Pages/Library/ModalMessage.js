@@ -6,7 +6,7 @@ import { AppStyles, Colors } from '../../Theme'
 import { Header, Card, APICard } from '../../Components'
 import { Const } from '../../Config'
 
-const url = Const.url.loading
+const url = Const.url.modalMessage
 
 class LibraryModalMessage extends React.Component {
   render () {
@@ -15,7 +15,7 @@ class LibraryModalMessage extends React.Component {
         <Header title="ATModalMessage/ATModalConfirm" />
         <View style={AppStyles.body}>
           <ScrollView>
-            <Card title="信息弹窗" api={url.size}>
+            <Card title="信息弹窗" api={url.modalMessage01}>
               <ATButton
                 ghost
                 style={AppStyles.mt10}
@@ -63,14 +63,17 @@ class LibraryModalMessage extends React.Component {
                 style={AppStyles.mt10}
                 onPress={() =>
                   ATModalMessage({
-                    icon: <Icon name="thumbs-up" size={30} color={Colors.primary} />,
+                    icon: (
+                      <Icon name="thumbs-up" size={30} color={Colors.primary} />
+                    ),
                     content: '这是一个带icon的信息'
                   })
                 }
-              >带图标的提示</ATButton>
-
+              >
+                带图标的提示
+              </ATButton>
             </Card>
-            <Card title="确认弹窗" api={url.size}>
+            <Card title="确认弹窗" api={url.modalMessage02}>
               <ATButton
                 ghost
                 type="warning"

@@ -40,6 +40,11 @@ export default class Const {
     modalLoading: {
       api: MD_RESOURCE_URL + '/ModalLoading/api.md',
       modalLoading01: MD_RESOURCE_URL + '/ModalLoading/01.md'
+    },
+    modalMessage: {
+      api: MD_RESOURCE_URL + '/ModalMessage/api.md',
+      modalMessage01: MD_RESOURCE_URL + '/ModalMessage/01.md',
+      modalMessage02: MD_RESOURCE_URL + '/ModalMessage/02.md'
     }
   }
 }
