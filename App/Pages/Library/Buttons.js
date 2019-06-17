@@ -16,7 +16,7 @@ class LibraryButtons extends React.Component {
   render () {
     return (
       <SafeAreaView style={AppStyles.screen}>
-        <Header title="Button" />
+        <Header title="ATButton" />
         <View style={AppStyles.body}>
           <ScrollView>
             <Card title="不同类型的按钮" api={url.type}>

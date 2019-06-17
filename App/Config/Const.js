@@ -24,6 +24,14 @@ export default class Const {
       nums: MD_RESOURCE_URL + '/FlexLine/nums.md',
       divide: MD_RESOURCE_URL + '/FlexLine/divide.md',
       render: MD_RESOURCE_URL + '/FlexLine/render.md'
+    },
+    list: {
+      api: MD_RESOURCE_URL + '/List/api.md',
+      list01: MD_RESOURCE_URL + '/List/01.md',
+      list02: MD_RESOURCE_URL + '/List/02.md',
+      list03: MD_RESOURCE_URL + '/List/03.md',
+      list04: MD_RESOURCE_URL + '/List/04.md',
+      list05: MD_RESOURCE_URL + '/List/05.md'
     }
   }
 }

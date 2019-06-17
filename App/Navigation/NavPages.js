@@ -4,6 +4,11 @@ import Components from '../Pages/Components'
 import LibraryButtons from '../Pages/Library/Buttons'
 import LibraryLoading from '../Pages/Library/Loading'
 import LibraryFlexLine from '../Pages/Library/FlexLine'
+import LibraryList from '../Pages/Library/List'
+import LibraryModalToast from '../Pages/Library/ModalToast'
+import LibraryModalLoading from '../Pages/Library/ModalLoading'
+import LibraryModalMessage from '../Pages/Library/ModalMessage'
+import LibraryModalSelect from '../Pages/Library/ModalSelect'
 
 // 底部导航对应的页面
 const TabPages = {
@@ -28,6 +33,21 @@ const AppPages = {
   },
   LibraryFlexLine: {
     screen: LibraryFlexLine
+  },
+  LibraryList: {
+    screen: LibraryList
+  },
+  LibraryModalToast: {
+    screen: LibraryModalToast
+  },
+  LibraryModalLoading: {
+    screen: LibraryModalLoading
+  },
+  LibraryModalMessage: {
+    screen: LibraryModalMessage
+  },
+  LibraryModalSelect: {
+    screen: LibraryModalSelect
   }
 }
 

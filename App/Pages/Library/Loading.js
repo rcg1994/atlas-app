@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, StyleSheet, ScrollView, SafeAreaView } from 'react-native'
+import { View, ScrollView, SafeAreaView } from 'react-native'
 import { ATRowView, ATLoading, ATSpin } from 'react-native-atlas'
 import { AppStyles } from '../../Theme'
 import { Header, Card, APICard } from '../../Components'
@@ -12,7 +12,7 @@ class LibraryLoading extends React.Component {
   render () {
     return (
       <SafeAreaView style={AppStyles.screen}>
-        <Header title="Loading" />
+        <Header title="ATLoading" />
         <View style={AppStyles.body}>
           <ScrollView>
             <Card title="不同大小" api={url.size}>
@@ -55,7 +55,5 @@ class LibraryLoading extends React.Component {
     )
   }
 }
-
-const Styles = StyleSheet.create({})
 
 export default LibraryLoading

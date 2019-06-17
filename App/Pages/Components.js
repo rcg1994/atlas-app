@@ -6,16 +6,36 @@ import { AppStyles } from '../Theme'
 
 const routes = [
   {
-    name: 'Button',
+    name: 'ATButton',
     path: 'LibraryButtons'
   },
   {
-    name: 'Loading',
+    name: 'ATLoading',
     path: 'LibraryLoading'
   },
   {
-    name: 'FlexLine',
+    name: 'ATFlexLine',
     path: 'LibraryFlexLine'
+  },
+  {
+    name: 'ATList',
+    path: 'LibraryList'
+  },
+  {
+    name: 'ATModalToast',
+    path: 'LibraryModalToast'
+  },
+  {
+    name: 'ATModalLoading',
+    path: 'LibraryModalLoading'
+  },
+  {
+    name: 'ATModalMessage/ATModalConfirm',
+    path: 'LibraryModalMessage'
+  },
+  {
+    name: 'ATModalSelect',
+    path: 'LibraryModalSelect'
   }
 ]
 

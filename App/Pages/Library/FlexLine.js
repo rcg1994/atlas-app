@@ -16,7 +16,7 @@ class LibraryFlexLine extends React.Component {
   render () {
     return (
       <SafeAreaView style={AppStyles.screen}>
-        <Header title="FlexLine" />
+        <Header title="ATFlexLine" />
         <View style={AppStyles.body}>
           <ScrollView>
             <Card title="任意个数" api={url.nums}>
