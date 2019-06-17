@@ -5,7 +5,7 @@ import { AppStyles } from '../../Theme'
 import { Header, Card, APICard } from '../../Components'
 import { Const } from '../../Config'
 
-const url = Const.url.loading
+const url = Const.url.modalLoading
 
 class LibraryModalLoading extends React.Component {
   render () {
@@ -14,7 +14,7 @@ class LibraryModalLoading extends React.Component {
         <Header title="ATModalLoading" />
         <View style={AppStyles.body}>
           <ScrollView>
-            <Card title="加载提示" api={url.size}>
+            <Card title="加载提示" api={url.modalToast01}>
               <ATButton
                 ghost
                 style={AppStyles.mt10}
