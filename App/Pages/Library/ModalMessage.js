@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, ScrollView, SafeAreaView } from 'react-native'
-import { ATModalMessage, ATModalConfirm, ATButton } from 'react-native-atlas'
+import { ATModalMessage, ATModalConfirm, ATButton, ATModal } from 'react-native-atlas'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import { AppStyles, Colors } from '../../Theme'
 import { Header, Card, APICard } from '../../Components'
@@ -12,7 +12,7 @@ class LibraryModalMessage extends React.Component {
   render () {
     return (
       <SafeAreaView style={AppStyles.screen}>
-        <Header title="ATModalMessage/ATModalConfirm" />
+        <Header title="ATModalMessage/Confirm/Prompt" />
         <View style={AppStyles.body}>
           <ScrollView>
             <Card title="信息弹窗" api={url.modalMessage01}>
@@ -130,6 +130,31 @@ class LibraryModalMessage extends React.Component {
                 }
               >
                 自定义交互按钮
+              </ATButton>
+            </Card>
+            <Card title="对话弹窗" api={url.modalMessage02}>
+              <ATButton
+                ghost
+                type="success"
+                style={AppStyles.mt10}
+                onPress={() =>
+                  ATModal.prompt({
+                    autoFocus: true,
+                    title: '请输入您的手机号',
+                    label: '手机号',
+                    width: 300,
+                    onOk: (v) => {
+                      ATModalMessage({
+                        title: '提示',
+                        content: `输入的内容为：${v}`,
+                        okText: '关闭',
+                        duration: 3000
+                      })
+                    }
+                  })
+                }
+              >
+    对话框
               </ATButton>
             </Card>
             <APICard api={url.api} />

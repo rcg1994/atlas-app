@@ -9,6 +9,7 @@ import LibraryModalToast from '../Pages/Library/ModalToast'
 import LibraryModalLoading from '../Pages/Library/ModalLoading'
 import LibraryModalMessage from '../Pages/Library/ModalMessage'
 import LibraryModalSelect from '../Pages/Library/ModalSelect'
+import LibraryModalCreate from '../Pages/Library/ModalCreate'
 
 // 底部导航对应的页面
 const TabPages = {
@@ -48,6 +49,9 @@ const AppPages = {
   },
   LibraryModalSelect: {
     screen: LibraryModalSelect
+  },
+  LibraryModalCreate: {
+    screen: LibraryModalCreate
   }
 }
 

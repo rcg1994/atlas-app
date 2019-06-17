@@ -30,12 +30,16 @@ const routes = [
     path: 'LibraryModalLoading'
   },
   {
-    name: 'ATModalMessage/ATModalConfirm',
+    name: 'ATModalMessage/Confirm/Prompt',
     path: 'LibraryModalMessage'
   },
   {
     name: 'ATModalSelect',
     path: 'LibraryModalSelect'
+  },
+  {
+    name: 'ATModalCreate',
+    path: 'LibraryModalCreate'
   }
 ]
 

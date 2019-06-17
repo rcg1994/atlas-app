@@ -29,3 +29,13 @@
 | buttons.color | 自定义按钮颜色     |  string         | `null`  |
 | buttons.onPress | 自定义按钮点击事件     |  function         | `null`  |
 
+#### ATModalPrompt (ATModal.prompt)
+
+##### 继承自 ATModalConfirm
+
+| 属性  | 说明         | 类型           | 默认值  |
+| ----- | ------------ | -------------- | ------- |
+| autoFocus | 自动聚焦     |  boolean         | `false`  |
+| label | 输入框标签     |  string         | `null`  |
+
+
