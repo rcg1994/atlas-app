@@ -5,7 +5,7 @@ import { AppStyles } from '../../Theme'
 import { Header, Card, APICard } from '../../Components'
 import { Const } from '../../Config'
 
-const url = Const.url.loading
+const url = Const.url.modalToast
 
 class LibraryModalToast extends React.Component {
   render () {
@@ -14,7 +14,7 @@ class LibraryModalToast extends React.Component {
         <Header title="ATModalToast" />
         <View style={AppStyles.body}>
           <ScrollView>
-            <Card title="信息提示" api={url.size}>
+            <Card title="信息提示" api={url.modalToast01}>
               <ATButton
                 ghost
                 style={AppStyles.mt10}

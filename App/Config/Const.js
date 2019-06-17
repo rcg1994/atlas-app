@@ -34,8 +34,12 @@ export default class Const {
       list05: MD_RESOURCE_URL + '/List/05.md'
     },
     modalToast: {
+      api: MD_RESOURCE_URL + '/ModalToast/api.md',
+      modalToast01: MD_RESOURCE_URL + '/ModalToast/01.md'
+    },
+    modalLoading: {
       api: MD_RESOURCE_URL + '/ModalLoading/api.md',
-      modalToast01: MD_RESOURCE_URL + '/ModalLoading/01.md'
+      modalLoading01: MD_RESOURCE_URL + '/ModalLoading/01.md'
     }
   }
 }
