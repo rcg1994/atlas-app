@@ -50,6 +50,10 @@ export default class Const {
     modalSelect: {
       api: MD_RESOURCE_URL + '/ModalSelect/api.md',
       modalSelect01: MD_RESOURCE_URL + '/ModalSelect/01.md'
+    },
+    modalCreate: {
+      api: MD_RESOURCE_URL + '/ModalCreate/api.md',
+      modalCreate01: MD_RESOURCE_URL + '/ModalCreate/01.md'
     }
   }
 }

@@ -5,16 +5,16 @@ import { AppStyles } from '../../Theme'
 import { Header, Card, APICard } from '../../Components'
 import { Const } from '../../Config'
 
-const url = Const.url.modalLoading
+const url = Const.url.modalCreate
 
 class LibraryModalLoading extends React.Component {
   render () {
     return (
       <SafeAreaView style={AppStyles.screen}>
-        <Header title="ATModalLoading" />
+        <Header title="ATModalCreate" />
         <View style={AppStyles.body}>
           <ScrollView>
-            <Card title="自定义弹出层" api={url.modalLoading01}>
+            <Card title="自定义弹出层" api={url.modalCreate01}>
               <ATButton
                 ghost
                 type="success"
