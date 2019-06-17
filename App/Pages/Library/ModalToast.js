@@ -21,11 +21,11 @@ class LibraryModalToast extends React.Component {
                 onPress={() =>
                   ATModalToast({
                     content: '系统异常提示（模拟）',
-                    duration: 5000
+                    duration: 3000
                   })
                 }
               >
-                显示5秒后关闭
+                显示3秒后关闭
               </ATButton>
 
               <ATButton

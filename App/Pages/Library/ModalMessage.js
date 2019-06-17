@@ -38,11 +38,11 @@ class LibraryModalMessage extends React.Component {
                     title: '提示',
                     content: '这是一个会自动关闭的信息',
                     okText: '点击主动关闭',
-                    duration: 5000
+                    duration: 3000
                   })
                 }
               >
-                自动关闭
+                3s后自动关闭
               </ATButton>
 
               <ATButton

@@ -6,7 +6,7 @@ import { AppStyles } from '../../Theme'
 import { Header, Card, APICard } from '../../Components'
 import { Const } from '../../Config'
 
-const url = Const.url.loading
+const url = Const.url.modalSelect
 
 class LibraryModalSelect extends React.Component {
   render () {
@@ -15,7 +15,7 @@ class LibraryModalSelect extends React.Component {
         <Header title="ATModalSelect" />
         <View style={AppStyles.body}>
           <ScrollView>
-            <Card title="选择弹窗" api={url.size}>
+            <Card title="选择弹窗" api={url.modalSelect01}>
               <ATButton
                 ghost
                 style={AppStyles.mt10}
@@ -40,7 +40,9 @@ class LibraryModalSelect extends React.Component {
                     ]
                   })
                 }
-              >选择弹窗</ATButton>
+              >
+                选择弹窗
+              </ATButton>
 
               <ATButton
                 ghost
@@ -66,7 +68,9 @@ class LibraryModalSelect extends React.Component {
                     ]
                   })
                 }
-              >带图标的选择弹窗</ATButton>
+              >
+                带图标的选择弹窗
+              </ATButton>
 
               <ATButton
                 ghost
@@ -86,7 +90,9 @@ class LibraryModalSelect extends React.Component {
                     ]
                   })
                 }
-              >自定义位置</ATButton>
+              >
+                自定义位置
+              </ATButton>
 
               <ATButton
                 ghost
@@ -110,7 +116,9 @@ class LibraryModalSelect extends React.Component {
                     e
                   )
                 }}
-              >是否悬浮</ATButton>
+              >
+                是否悬浮
+              </ATButton>
 
               <ATButton
                 ghost
@@ -136,9 +144,10 @@ class LibraryModalSelect extends React.Component {
                     },
                     e
                   )
-                }
-                }
-              >长按触发</ATButton>
+                }}
+              >
+                长按触发
+              </ATButton>
             </Card>
             <APICard api={url.api} />
           </ScrollView>
