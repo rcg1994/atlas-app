@@ -132,7 +132,7 @@ class LibraryModalMessage extends React.Component {
                 自定义交互按钮
               </ATButton>
             </Card>
-            <Card title="对话弹窗" api={url.modalMessage02}>
+            <Card title="对话弹窗" api={url.modalMessage03}>
               <ATButton
                 ghost
                 type="success"
