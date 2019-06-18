@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, StyleSheet, SafeAreaView } from 'react-native'
+import { View, StyleSheet, SafeAreaView, ScrollView } from 'react-native'
 import { ATList } from 'react-native-atlas'
 import { Header } from '../Components'
 import { AppStyles } from '../Theme'
@@ -76,7 +76,9 @@ class Components extends React.Component {
       <SafeAreaView style={AppStyles.screen}>
         <Header title="组件库" headerLeft={null} />
         <View style={AppStyles.body}>
-          <ATList style={Styles.list} data={listData} underlayColor="#fdfdfd" />
+          <ScrollView>
+            <ATList style={Styles.list} data={listData} underlayColor="#fdfdfd" />
+          </ScrollView>
         </View>
       </SafeAreaView>
     )

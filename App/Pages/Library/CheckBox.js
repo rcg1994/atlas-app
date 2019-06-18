@@ -18,7 +18,7 @@ class LibraryText extends React.Component {
   state = {
     time: 0,
     check1: false,
-    checkBoxGroup: []
+    checkBoxGroup: ['标签一', '标签二']
   }
 
   checkBoxGroupChange = v => {
