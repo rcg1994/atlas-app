@@ -10,6 +10,7 @@ import LibraryModalLoading from '../Pages/Library/ModalLoading'
 import LibraryModalMessage from '../Pages/Library/ModalMessage'
 import LibraryModalSelect from '../Pages/Library/ModalSelect'
 import LibraryModalCreate from '../Pages/Library/ModalCreate'
+import LibraryText from '../Pages/Library/Text'
 
 // 底部导航对应的页面
 const TabPages = {
@@ -52,6 +53,9 @@ const AppPages = {
   },
   LibraryModalCreate: {
     screen: LibraryModalCreate
+  },
+  LibraryText: {
+    screen: LibraryText
   }
 }
 

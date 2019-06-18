@@ -6,6 +6,10 @@ import { AppStyles } from '../Theme'
 
 const routes = [
   {
+    name: 'ATText',
+    path: 'LibraryText'
+  },
+  {
     name: 'ATButton',
     path: 'LibraryButtons'
   },

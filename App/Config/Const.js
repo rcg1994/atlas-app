@@ -2,6 +2,11 @@ const MD_RESOURCE_URL =
   'https://raw.githubusercontent.com/rcg1994/atlas-app/master/App/Resources/Markdown'
 export default class Const {
   static url = {
+    text: {
+      api: MD_RESOURCE_URL + '/Text/api.md',
+      text01: MD_RESOURCE_URL + '/Text/01.md',
+      text02: MD_RESOURCE_URL + '/Text/02.md'
+    },
     button: {
       api: MD_RESOURCE_URL + '/Button/api.md',
       type: MD_RESOURCE_URL + '/Button/type.md',
