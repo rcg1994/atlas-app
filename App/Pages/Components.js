@@ -48,6 +48,10 @@ const routes = [
   {
     name: 'ATModalCreate',
     path: 'LibraryModalCreate'
+  },
+  {
+    name: 'ATInput',
+    path: 'LibraryInput'
   }
 ]
 

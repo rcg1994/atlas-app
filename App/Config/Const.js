@@ -64,6 +64,12 @@ export default class Const {
     modalCreate: {
       api: MD_RESOURCE_URL + '/ModalCreate/api.md',
       modalCreate01: MD_RESOURCE_URL + '/ModalCreate/01.md'
+    },
+    input: {
+      api: MD_RESOURCE_URL + '/Input/api.md',
+      input01: MD_RESOURCE_URL + '/Input/01.md',
+      input02: MD_RESOURCE_URL + '/Input/02.md',
+      input03: MD_RESOURCE_URL + '/Input/03.md'
     }
   }
 }
