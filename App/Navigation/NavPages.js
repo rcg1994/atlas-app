@@ -13,6 +13,7 @@ import LibraryModalCreate from '../Pages/Library/ModalCreate'
 import LibraryText from '../Pages/Library/Text'
 import LibraryTag from '../Pages/Library/Tag'
 import LibraryInput from '../Pages/Library/Input'
+import LibraryCheckBox from '../Pages/Library/CheckBox'
 
 // 底部导航对应的页面
 const TabPages = {
@@ -64,6 +65,9 @@ const AppPages = {
   },
   LibraryInput: {
     screen: LibraryInput
+  },
+  LibraryCheckBox: {
+    screen: LibraryCheckBox
   }
 }
 

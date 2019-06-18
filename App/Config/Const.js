@@ -70,6 +70,14 @@ export default class Const {
       input01: MD_RESOURCE_URL + '/Input/01.md',
       input02: MD_RESOURCE_URL + '/Input/02.md',
       input03: MD_RESOURCE_URL + '/Input/03.md'
+    },
+    checkBox: {
+      api: MD_RESOURCE_URL + '/CheckBox/api.md',
+      checkBox01: MD_RESOURCE_URL + '/CheckBox/01.md',
+      checkBox02: MD_RESOURCE_URL + '/CheckBox/02.md',
+      checkBox03: MD_RESOURCE_URL + '/CheckBox/03.md',
+      checkBox04: MD_RESOURCE_URL + '/CheckBox/04.md',
+      checkBox05: MD_RESOURCE_URL + '/CheckBox/05.md'
     }
   }
 }

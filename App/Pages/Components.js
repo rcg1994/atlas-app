@@ -52,6 +52,10 @@ const routes = [
   {
     name: 'ATInput',
     path: 'LibraryInput'
+  },
+  {
+    name: 'ATCheckBox',
+    path: 'LibraryCheckBox'
   }
 ]
 
