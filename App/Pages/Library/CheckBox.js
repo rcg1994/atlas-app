@@ -126,7 +126,7 @@ class LibraryText extends React.Component {
                   onChange={this.checkBoxGroupChange}
                   options={options}
                   max={3}
-                  checkedImage={
+                  checkedView={
                     <View style={styles.unCheckedImage}>
                       <Icon
                         name="check-square"
@@ -135,7 +135,7 @@ class LibraryText extends React.Component {
                       />
                     </View>
                   }
-                  unCheckedImage={<View style={styles.unCheckedImage} />}
+                  unCheckedView={<View style={styles.unCheckedImage} />}
                   tintColor={Colors.primary}
                   rightTextStyle={styles.checkText}
                   optionStyle={{ width: '50%' }}
