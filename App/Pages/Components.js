@@ -56,6 +56,10 @@ const routes = [
   {
     name: 'ATCheckBox',
     path: 'LibraryCheckBox'
+  },
+  {
+    name: 'ATRadio',
+    path: 'LibraryRadio'
   }
 ]
 

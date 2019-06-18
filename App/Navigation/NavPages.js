@@ -14,6 +14,7 @@ import LibraryText from '../Pages/Library/Text'
 import LibraryTag from '../Pages/Library/Tag'
 import LibraryInput from '../Pages/Library/Input'
 import LibraryCheckBox from '../Pages/Library/CheckBox'
+import LibraryRadio from '../Pages/Library/Radio'
 
 // 底部导航对应的页面
 const TabPages = {
@@ -68,6 +69,9 @@ const AppPages = {
   },
   LibraryCheckBox: {
     screen: LibraryCheckBox
+  },
+  LibraryRadio: {
+    screen: LibraryRadio
   }
 }
 
