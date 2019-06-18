@@ -1,4 +1,4 @@
-const colors = {
+module.exports = {
   primary: '#019494',
   warning: '#F9B43F',
   success: '#0ca21c',
@@ -7,5 +7,3 @@ const colors = {
   tabBackground: '#fff',
   borderLight: '#e3e3e3'
 }
-
-export default colors

@@ -7,6 +7,11 @@ export default class Const {
       text01: MD_RESOURCE_URL + '/Text/01.md',
       text02: MD_RESOURCE_URL + '/Text/02.md'
     },
+    tag: {
+      api: MD_RESOURCE_URL + '/Tag/api.md',
+      tag01: MD_RESOURCE_URL + '/Tag/01.md',
+      tag02: MD_RESOURCE_URL + '/Tag/02.md'
+    },
     button: {
       api: MD_RESOURCE_URL + '/Button/api.md',
       type: MD_RESOURCE_URL + '/Button/type.md',

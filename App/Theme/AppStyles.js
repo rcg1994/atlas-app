@@ -29,6 +29,9 @@ const AppStyles = StyleSheet.create({
   mt10: {
     marginTop: 10
   },
+  mr10: {
+    marginRight: 10
+  },
   border: {
     borderWidth: StyleSheet.hairlineWidth,
     borderColor: '#ddd'

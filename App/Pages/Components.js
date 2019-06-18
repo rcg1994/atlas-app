@@ -14,6 +14,10 @@ const routes = [
     path: 'LibraryButtons'
   },
   {
+    name: 'ATTag',
+    path: 'LibraryTag'
+  },
+  {
     name: 'ATLoading',
     path: 'LibraryLoading'
   },
