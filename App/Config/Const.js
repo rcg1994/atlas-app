@@ -78,6 +78,13 @@ export default class Const {
       checkBox03: MD_RESOURCE_URL + '/CheckBox/03.md',
       checkBox04: MD_RESOURCE_URL + '/CheckBox/04.md',
       checkBox05: MD_RESOURCE_URL + '/CheckBox/05.md'
+    },
+    radio: {
+      api: MD_RESOURCE_URL + '/Radio/api.md',
+      radio01: MD_RESOURCE_URL + '/Radio/01.md',
+      radio02: MD_RESOURCE_URL + '/Radio/02.md',
+      radio03: MD_RESOURCE_URL + '/Radio/03.md',
+      radio04: MD_RESOURCE_URL + '/Radio/04.md'
     }
   }
 }

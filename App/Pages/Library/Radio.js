@@ -7,7 +7,7 @@ import { Header, Card, APICard } from '../../Components'
 import { AppStyles, Colors } from '../../Theme'
 import { Const } from '../../Config'
 
-const url = Const.url.text
+const url = Const.url.radio
 
 const PayCom = ({ type, unCheck }) => (
   <View style={{ flexDirection: 'row', marginRight: 30 }}>
@@ -35,7 +35,7 @@ class LibraryRadio extends React.Component {
         <Header title="ATRadio" />
         <View style={AppStyles.body}>
           <ScrollView>
-            <Card title="不同状态" api={url.text01}>
+            <Card title="不同状态" api={url.radio01}>
               <ATRowView style={[styles.mV, styles.mH]}>
                 <ATRadio label="default" style={[styles.mr, styles.mt]} />
                 <ATRadio
@@ -45,7 +45,7 @@ class LibraryRadio extends React.Component {
                 />
               </ATRowView>
             </Card>
-            <Card title="自定义样式" api={url.text01}>
+            <Card title="自定义样式" api={url.radio02}>
               <ATRowView style={[styles.mV, styles.mH]}>
                 <ATRadio
                   label="custom style"
@@ -74,7 +74,7 @@ class LibraryRadio extends React.Component {
                 />
               </ATRowView>
             </Card>
-            <Card title="响应事件" api={url.text01}>
+            <Card title="响应事件" api={url.radio03}>
               <ATRowView style={[styles.mV, styles.mH]}>
                 <ATRadio
                   checked={this.state.isChecked}
@@ -89,7 +89,7 @@ class LibraryRadio extends React.Component {
                 <ATText>选中状态：{String(this.state.isChecked)}</ATText>
               </ATRowView>
             </Card>
-            <Card title="单选框组" api={url.text01}>
+            <Card title="单选框组" api={url.radio04}>
               <ATRowView style={[styles.mV, styles.mH]}>
                 <ATText style={{ marginRight: 10 }}>性别：</ATText>
                 <ATRadioGroup
